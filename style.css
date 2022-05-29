@@ -1,0 +1,130 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2ebe9;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #de5499;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #eddcd9;
+  }
+body {
+    background-color: #eddcd9;
+}
+
+.column {
+    float: left;
+    width: 80%;
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  body {
+    font-family: roboto;
+    padding: 20px;
+    background:  #eddcd9;
+  }
+  
+
+  .header {
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+    background: #eddcd9;
+  }
+  
+  
+  .leftcolumn {
+    float: left;
+    width: 90%;
+  }
+  
+  
+  
+  .fakeimg {
+    background-color: #f2ebe9;
+    width: 100%;
+    padding: 50px;
+  }
+  
+  
+  .card {
+    background-color: #eddcd9;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #f2ebe9;
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 80%;
+      padding: 20px;
+    }
+  }
+
+  
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #f2ebe9; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical
+}
+
+
+input[type=submit] {
+  background-color: #de5499;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #de5499;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2ebe9;
+  padding: 20px;
+}
